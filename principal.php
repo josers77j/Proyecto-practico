@@ -41,7 +41,7 @@ $password = $_POST["password"];
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">cerrar sesion</a>
+        <a class="nav-link" href="index.php">cerrar sesion</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
@@ -56,8 +56,8 @@ $password = $_POST["password"];
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
   <div class="container">
-    <?='<h1 class="display-3">Hello, '. $user.'!</h1>'?>
-    <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+    <?='<h1 class="display-3">Bienvenido, '. $user.'!</h1>'?>
+    <p>Esta es la pagina principal</p>
     <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
   </div>
 </div>
